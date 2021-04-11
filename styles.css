@@ -1,0 +1,176 @@
+@import "reset.css";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #006266;
+}
+
+hr {
+  margin-top: 50px;
+  width: 1200px;
+  border-bottom: 1px solid #ee5a24;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: tomato;
+}
+
+.box_input {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_title {
+  font-size: 26px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.other_font {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wordinput {
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ee5a24;
+  color: whitesmoke;
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+  border-style: none;
+  box-shadow: 0px 0px 20px #ee5a24;
+  text-align: center;
+}
+
+.wordinput::placeholder {
+  color: whitesmoke;
+  justify-content: center;
+  opacity: 0.4;
+}
+
+.search_btn {
+  margin-top: 50px;
+  width: 340px;
+  height: 35px;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0px 0px 20px #12cbc4;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #12cbc4;
+}
+
+.title_bar {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #ee5a24;
+}
+
+.result_info {
+  font-size: 24px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.title_bar span {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.title_bar a {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: whitesmoke;
+  box-shadow: 0px 0px 20px #12cbc4;
+  background-color: #12cbc4;
+}
+
+.detail_box {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #12cbc552;
+}
+
+.job_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.job_company {
+  margin-top: 20px;
+  color: #ee5a24;
+}
+
+.job_apply {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  color: whitesmoke;
+  background-color: #12cbc4;
+  box-shadow: 0px 0px 20px #12cbc4;
+  font-size: 20px;
+}
+
+main hr {
+  margin-top: 20px;
+  border-style: none;
+}
